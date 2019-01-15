@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PdfGenerator Sample</string>
+    <string name="TextAreaHint">Текст для pdf документа</string>
+    <string name="file_provider_authority" translatable="false">com.example.openpdfsample.fileprovider</string>
+
+ <string name="html1"><![CDATA[
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+        <title>Title</title>
+        <style type="text/css">
+            <!--@page { size: a4 landscape; }-->
+            h2 { font-family: "Arial Unicode MS"; }
+        </style>
+    </head>
+    <body>
+        <h2>Header 2</h2>
+        <p>0000 Параграф 0000</p>
+        <p>1111 Параграф 1111 ${Key1}</p>
+        <p>2222 Параграф 2222 ${Key2}</p>
+
+        <img alt="картинка" src="${Key3}" />
+    </body>
+</html>
+
+]]></string>
+    <string name="btnGenPdfText">Получить PDF</string>
+
+</resources>
